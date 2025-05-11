@@ -8,7 +8,7 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import Notifications from "./Notifications";
 
 const Navbar = () => {
-  const { toggle } = useSidebar();
+  const sidebar = useSidebar();
   const isMobile = useIsMobile();
 
   return (
@@ -16,7 +16,7 @@ const Navbar = () => {
       <div className="container flex h-16 items-center px-4">
         <div className="mr-4">
           {!isMobile ? (
-            <Button variant="ghost" size="icon" onClick={toggle}>
+            <Button variant="ghost" size="icon" onClick={() => sidebar.setOpen(!sidebar.open)}>
               <Menu className="h-5 w-5" />
               <span className="sr-only">Toggle sidebar</span>
             </Button>
