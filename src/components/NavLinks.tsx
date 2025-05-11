@@ -1,6 +1,6 @@
 
 import { NavLink } from "react-router-dom";
-import { Home, Book, Users, Bell } from "lucide-react";
+import { Home, Book, Users, Bell, Calendar, MessageCircle } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 interface NavLinksProps {
@@ -14,6 +14,8 @@ const NavLinks = ({ horizontal = false, onClick }: NavLinksProps) => {
     { name: "Courses", path: "/courses", icon: <Book size={18} /> },
     { name: "Faculty", path: "/faculty", icon: <Users size={18} /> },
     { name: "Announcements", path: "/announcements", icon: <Bell size={18} /> },
+    { name: "Timetable", path: "/timetable", icon: <Calendar size={18} /> },
+    { name: "Contact", path: "/contact", icon: <MessageCircle size={18} /> },
   ];
 
   const navLinkClass = horizontal 

@@ -52,7 +52,7 @@ const categoryColors = {
   Event: "secondary",
   Career: "destructive",
   Curriculum: "outline",
-  Research: "primary"
+  Research: "secondary" // Changed from "primary" to "secondary" to fix the TS error
 } as const;
 
 const Announcements = () => {

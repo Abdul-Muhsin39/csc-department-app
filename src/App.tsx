@@ -9,6 +9,8 @@ import Home from "./pages/Home";
 import Courses from "./pages/Courses";
 import Faculty from "./pages/Faculty";
 import Announcements from "./pages/Announcements";
+import Timetable from "./pages/Timetable"; // Add the new Timetable page
+import Contact from "./pages/Contact"; // Add the new Contact page
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -25,6 +27,8 @@ const App = () => (
             <Route path="/courses" element={<Courses />} />
             <Route path="/faculty" element={<Faculty />} />
             <Route path="/announcements" element={<Announcements />} />
+            <Route path="/timetable" element={<Timetable />} />
+            <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<NotFound />} />
           </Route>
         </Routes>
