@@ -5,9 +5,9 @@ import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/componen
 const announcements = [
   {
     id: 1,
-    title: "Fall Registration Now Open",
+    title: "Full Registration Now Open",
     date: "May 1, 2025",
-    content: "Registration for fall semester courses is now open. Please consult with your academic advisor to plan your course schedule. Early registration is encouraged to secure your preferred classes.",
+    content: "Registration for full Trimester courses is now open. Please consult with your academic advisor to plan your course schedule. Early registration is encouraged to secure your preferred classes.",
     category: "Administrative"
   },
   {
@@ -28,7 +28,7 @@ const announcements = [
     id: 4,
     title: "New Course: Blockchain Development",
     date: "April 10, 2025",
-    content: "The department is pleased to announce a new course, CS450: Blockchain Development, which will be offered in the fall semester. This course will cover the fundamentals of blockchain technology and smart contract development. Prerequisites include CS225 and CS315.",
+    content: "The department is pleased to announce a new course, CSC450: Blockchain Development, which will be offered in the fall semester. This course will cover the fundamentals of blockchain technology and smart contract development. Prerequisites include CSC225 and CSC315.",
     category: "Curriculum"
   },
   {

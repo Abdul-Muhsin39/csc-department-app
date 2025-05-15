@@ -82,7 +82,7 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="font-medium">Email</h3>
-                <p className="text-muted-foreground">cs-department@university.edu</p>
+                <p className="text-muted-foreground">info@uds.edu.gh</p>
               </div>
             </div>
             
@@ -92,7 +92,7 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="font-medium">Phone</h3>
-                <p className="text-muted-foreground">(555) 123-4567</p>
+                <p className="text-muted-foreground">(233) 54-071-7465</p>
               </div>
             </div>
             
@@ -104,9 +104,9 @@ const Contact = () => {
                 <h3 className="font-medium">Address</h3>
                 <p className="text-muted-foreground">
                   Computer Science Department<br />
-                  University Campus<br />
-                  123 University Ave<br />
-                  City, State 12345
+                  University For Development Studies<br />
+                  Nyankpala Campus<br />
+                  Nyankpala, Ghana-Northern Region
                 </p>
               </div>
             </div>

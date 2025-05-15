@@ -6,69 +6,69 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 const courses = {
   undergraduate: [
     {
-      code: "CS101",
-      title: "Introduction to Programming",
+      code: "CSC101",
+      title: "Programming Fundamentals",
       description: "Fundamentals of programming using Python. Covers basic syntax, data structures, and algorithms.",
       credits: 3,
       prerequisites: "None",
       tags: ["Core", "Python"]
     },
     {
-      code: "CS201",
+      code: "CSC201",
       title: "Data Structures",
       description: "Implementation and application of essential data structures. Topics include arrays, linked lists, stacks, queues, trees, and graphs.",
-      credits: 4,
-      prerequisites: "CS101",
+      credits: 3,
+      prerequisites: "CSC101",
       tags: ["Core", "Java"]
     },
     {
-      code: "CS225",
+      code: "CSC225",
       title: "Algorithms",
       description: "Design and analysis of algorithms. Topics include sorting, searching, dynamic programming, and complexity theory.",
       credits: 3,
-      prerequisites: "CS201, Math210",
+      prerequisites: "CSC201, Math210",
       tags: ["Core"]
     },
     {
-      code: "CS306",
+      code: "CSC306",
       title: "Mobile Device Programming",
       description: "Development of applications for mobile devices. Covers user interfaces, data storage, and network communication.",
       credits: 3,
-      prerequisites: "CS225",
+      prerequisites: "CSC225",
       tags: ["Elective", "React Native"]
     },
     {
-      code: "CS315",
+      code: "CSC315",
       title: "Web Development",
       description: "Client-side and server-side web application development. Covers HTML, CSS, JavaScript, and Node.js.",
       credits: 3,
-      prerequisites: "CS201",
+      prerequisites: "CSC201",
       tags: ["Elective", "JavaScript"]
     }
   ],
   graduate: [
     {
-      code: "CS501",
+      code: "CSC501",
       title: "Advanced Algorithms",
       description: "Advanced topics in algorithm design and analysis, including amortized analysis and computational geometry.",
       credits: 3,
-      prerequisites: "CS225",
+      prerequisites: "CSC225",
       tags: ["Core"]
     },
     {
-      code: "CS510",
+      code: "CSC510",
       title: "Machine Learning",
       description: "Fundamentals of machine learning, including supervised and unsupervised learning, neural networks, and deep learning.",
       credits: 4,
-      prerequisites: "CS225, Math310",
+      prerequisites: "CSC225, Math310",
       tags: ["Elective", "Python"]
     },
     {
-      code: "CS532",
+      code: "CSC532",
       title: "Computer Vision",
       description: "Image processing, feature detection, object recognition, and 3D reconstruction.",
       credits: 3,
-      prerequisites: "CS510",
+      prerequisites: "CSC510",
       tags: ["Elective", "Python"]
     }
   ]

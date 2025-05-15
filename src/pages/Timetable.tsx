@@ -16,43 +16,43 @@ import { useToast } from "@/hooks/use-toast";
 const timetableEvents = [
   {
     id: 1,
-    course: "CS101: Introduction to Programming",
+    course: "CSC101: Introduction to Programming",
     day: "Monday",
     startTime: "10:00 AM",
     endTime: "11:30 AM",
-    location: "Science Building, Room 301"
+    location: "Lecture Theatre,LT7"
   },
   {
     id: 2,
-    course: "CS205: Data Structures",
+    course: "CSC205: Data Structures",
     day: "Monday",
     startTime: "2:00 PM",
     endTime: "3:30 PM",
-    location: "Engineering Hall, Room 102"
+    location: "Lecture Theatre,LT7"
   },
   {
     id: 3,
-    course: "CS315: Algorithm Design",
+    course: "CSC315: Algorithm Design",
     day: "Tuesday",
     startTime: "9:00 AM",
     endTime: "10:30 AM",
-    location: "Science Building, Room 201"
+    location: "Lecture Theatre, LT7"
   },
   {
     id: 4,
-    course: "CS420: Artificial Intelligence",
+    course: "CSC420: Artificial Intelligence",
     day: "Wednesday",
     startTime: "1:00 PM",
     endTime: "2:30 PM",
-    location: "Tech Center, Room 405"
+    location: "Great Hall ,Hall C"
   },
   {
     id: 5,
-    course: "CS450: Blockchain Development",
+    course: "CSC450: Blockchain Development",
     day: "Thursday",
     startTime: "11:00 AM",
     endTime: "12:30 PM",
-    location: "Engineering Hall, Room 210"
+    location: "Lecture Theatre,LT7"
   }
 ];
 

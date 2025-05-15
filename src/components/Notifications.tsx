@@ -36,7 +36,7 @@ const initialNotifications: Notification[] = [
   {
     id: 3,
     title: "Course Update",
-    content: "CS315 assignment deadline extended to next week",
+    content: "CSC315 assignment deadline extended to next week",
     date: "Yesterday",
     isNew: false
   }
