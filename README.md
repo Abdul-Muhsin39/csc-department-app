@@ -1,18 +1,19 @@
-# Welcome to your Lovable project
+# Welcome to csc-department project
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/64368417-f216-448d-9aaa-2a73b8871993
+**URL**: https://Abdul-Muhsin39.github.io/csc-department-app
+
+
 
 ## How can I edit this code?
 
-There are several ways of editing your application.
 
-**Use Lovable**
+Simply visit the [(https://Abdul-Muhsin39.github.io/csc-department-app]
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/64368417-f216-448d-9aaa-2a73b8871993) and start prompting.
+)) and start prompting.
 
-Changes made via Lovable will be committed automatically to this repo.
+Changes made via the website will be committed automatically to this repo.
 
 **Use your preferred IDE**
 
